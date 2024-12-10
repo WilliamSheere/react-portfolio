@@ -1,0 +1,10 @@
+
+header {
+    height: 85px;
+    background-color: burlywood;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+}
