@@ -4,9 +4,9 @@ import './NavBar.css';
 
 function Navbar() {
   return (
-    <header>
-      <nav className='navbar'>
-    { /*    <ul>
+		<header>
+			<nav className="navbar">
+				{/*    <ul>
           <a href="/">
             <li>Home</li>
           </a>
@@ -17,16 +17,16 @@ function Navbar() {
             <li>Portfolio</li>
           </a>
         </ul>
-        */ }
-        <div className='nav-links'>
-          <Link to='/'>Home</Link>
-          <Link to='/contact'>Contact</Link>
-          <Link to='/portfolio'>Portfolio</Link>
-      
-        </div>
-      </nav>
-    </header>
-  )
+        */}
+				<div className="nav-links">
+					<Link to="/">Home</Link>
+					<Link to="/contact">Contact</Link>
+					<Link to="/portfolio">Portfolio</Link>
+					<Link to="/resume">Resume</Link>
+				</div>
+			</nav>
+		</header>
+	);
 }
 
 export default Navbar
