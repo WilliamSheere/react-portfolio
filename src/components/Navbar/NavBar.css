@@ -7,3 +7,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.activeLink{
+    color: hotpink;
+    
+}

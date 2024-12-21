@@ -1,0 +1,10 @@
+.bioImg {
+    width: 30vw;
+}
+.aboutMeContainer{
+    display: flex;
+
+}
+.aboutMeContainer >section>p{
+    padding: 0 20px;
+}
