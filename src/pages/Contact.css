@@ -1,0 +1,10 @@
+#contactForm {
+    
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+#contactForm button  {
+    width: 18vw;
+    margin: 10px auto;
+}
